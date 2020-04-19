@@ -16,8 +16,9 @@ class AppLocalizations {
   }
 
   // Un atributo estatico para tener un acceso rapido al delegate desde el MaterialApp
-  static const LocalizationsDelegate<AppLocalizations> delegate =
-      AppLocalizationsDelegate();
+  static  LocalizationsDelegate<AppLocalizations> delegate(List<String> submodulos){
+      return AppLocalizationsDelegate(submodulos: submodulos);
+}
 
   Map<String, String> _localizedStrings;
 

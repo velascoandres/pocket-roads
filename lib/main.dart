@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:pocket_roads/src/constantes/nombres-submodulos.dart';
 import 'package:pocket_roads/src/submodulos/submodulo-internacionalizacion/app_locations.dart';
 
 void main() => runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         Locale('es'),
       ],
       localizationsDelegates: [
-        AppLocalizations.delegate,
+        AppLocalizations.delegate(NOMBRES_SUBMODULOS),
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
       ],
