@@ -4,3 +4,6 @@
 [submodule "lib/src/submodulos/submodulo-auth0-movil"]
 	path = lib/src/submodulos/submodulo-auth0-movil
 	url = https://github.com/pimba-corporation/submodulo-auth0-movil
+[submodule "lib/src/submodulos/submodulo-transportes-movil"]
+	path = lib/src/submodulos/submodulo-transportes-movil
+	url = https://github.com/pimba-corporation/submodulo-transportes-movil
